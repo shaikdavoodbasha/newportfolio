@@ -67,11 +67,11 @@ const Footer = () => {
                 {item.icon}
               </motion.div>
               <div className="flex justify-between items-center gap-7">
-                <p className="text-[23px] manrope-italic hover:text-[#FF472F] dark:hover:text-[#FF6B4D] n-200 dark:text-[#E0E0E0]">
+                <p className="text-[14px] sm:text-[23px] manrope-italic hover:text-[#FF472F] dark:hover:text-[#FF6B4D] n-200 dark:text-[#E0E0E0]">
                   {item.label}
                 </p>
                 <motion.div
-                  className="text-[30px]"
+                  className="text-[15px] sm:text-[30px]"
                   whileHover={{ x: 5 }}
                   transition={{ type: "spring", stiffness: 200 }}
                 >

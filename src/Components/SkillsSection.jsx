@@ -17,7 +17,7 @@ const SkillsSection = () => {
     >
       {/* ONE SECTION - LEFT BOX */}
       <motion.div
-        className="one w-full sm:w-auto border border-[#d9d9d9] rounded-[20px] bg-[#ffffff] dark:bg-[#1A1A2E] px-[20px] pt-[24px] flex flex-col justify-start items-start gap-3"
+        className="one w-full sm:w-auto border border-[#d9d9d9] rounded-[20px] bg-[#ffffff] dark:bg-[#1A1A2E] px-[10px] py-[12px] sm:px-[20px] sm:pt-[24px] flex flex-col justify-start items-start gap-3"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
@@ -34,7 +34,7 @@ const SkillsSection = () => {
         </motion.h1>
 
         <motion.p
-          className="manrope text-[16px] w-[420px] text-center sm:text-left dark:text-[#E0E0E0] white"
+          className="manrope text-[10px] sm:text-[16px] w-auto sm:w-[420px] text-center sm:text-left dark:text-[#E0E0E0] white"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
@@ -80,10 +80,10 @@ const SkillsSection = () => {
                 transition={{ delay: 0.2 }}
               />
               <div className="flex flex-col gap-1">
-                <p className="literata-italic text-[18px] sm:text-[24px] font-medium dark:text-[#E0E0E0]">
+                <p className="literata-italic text-[14px] sm:text-[24px] font-medium dark:text-[#E0E0E0]">
                   {project.projectTitle}
                 </p>
-                <p className="manrope text-[14px] sm:text-[16px] font-medium dark:text-[#E0E0E0]">
+                <p className="manrope text-[14px] sm:text-[12px] font-medium dark:text-[#E0E0E0]">
                   {project.projectDescription}
                 </p>
               </div>
@@ -91,7 +91,7 @@ const SkillsSection = () => {
 
             {/* ARROW WITH HOVER ANIMATION */}
             <motion.div
-              className="arrow relative group px-[12px] py-[12px] bg-[#f0f0f0] dark:bg-[#1A1A2E] border border-[#d9d9d9] rounded-[50px] text-[30px]"
+              className="arrow relative group px-[12px] py-[12px] bg-[#f0f0f0] dark:bg-[#1A1A2E] border border-[#d9d9d9] rounded-[50px] text-[20px] sm:text-[30px]"
               whileHover={{ rotate: -50, scale: 0.7 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
