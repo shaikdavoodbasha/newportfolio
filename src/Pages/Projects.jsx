@@ -42,12 +42,12 @@ const Projects = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="flex flex-col justify-center items-center sm:justify-start sm:items-start gap-3 w-[60%]  ">
+          <div className="flex flex-col justify-center items-center sm:justify-start sm:items-start gap-3 w-auto sm:w-[60%]  ">
             <img src={resources.projectslogo} alt="" />
             <h1 className="literata-italic font-semibold text-center sm:text-left text-[17px] sm:text-[48px] text-[#FF472F] dark:text-[#FF6B4D] whitespace-nowrap">
               A Showcase of – Creativity and Craft
             </h1>
-            <p className="manrope-italic text-[13px] sm:text-[20px] dark:text-[#E0E0E0] text-center sm:text-left">
+            <p className="manrope-italic text-[15px] sm:text-[20px] dark:text-[#E0E0E0] text-center sm:text-left">
               Explore a collection of thoughtfully designed projects, each
               crafted with care and intention. From concept to completion, these
               works reflect a journey of problem-solving, innovation, and

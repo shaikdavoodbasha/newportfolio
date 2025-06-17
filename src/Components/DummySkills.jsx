@@ -21,7 +21,7 @@ const cardVariants = {
   // dark:text-[#E0E0E0] white
 const DummySkills = () => {
   return (
-    <div className="m-[4px] sm:m-[20px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+    <div className="m-[20px] sm:m-[20px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
       {dummyProjects.map((project, index) => {
         return (
           <motion.div

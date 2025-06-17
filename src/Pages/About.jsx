@@ -30,7 +30,7 @@ const About = () => {
             <h2 className="literata-italic font-medium text-[18px] sm:text-[32px] dark:text-[#E0E0E0] whitespace-nowrap">
               Who I Am & What I Bring to the Table
             </h2>
-            <p className="manrope-italic text-[8px] sm:text-[18px] dark:text-[#E0E0E0] w-full text-center sm:text-left">
+            <p className="manrope-italic text-[12px] sm:text-[18px] dark:text-[#E0E0E0] w-full text-center sm:text-left">
               Hey there! 👋 I'm Shaik.Davood, a passionate Frontend
               Developer who loves turning ideas into interactive, pixel-perfect
               web experiences. With a strong foundation in JavaScript (ES6+),

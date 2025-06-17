@@ -30,7 +30,7 @@ const fadeIn = {
 const ContactMe = () => {
   const heading = "Contact";
   return (
-    <div className="m-[8px] sm:m-[20px]">
+    <div className="m-[20px] sm:m-[20px]">
       {/* Animated Heading */}
       <motion.h1
         className="text-[48px] sm:text-[148px] text-[#FF472F] dark:text-[#FF6B4D] literata-italic font-bold flex flex-wrap"
