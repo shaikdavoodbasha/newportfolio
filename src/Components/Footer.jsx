@@ -33,10 +33,10 @@ const Footer = () => {
         variants={fadeIn}
       >
         <div className="flex flex-col justify-start items-start gap-4 w-full lg:w-[40%]">
-          <h1 className="literata-italic font-semibold text-[32px] dark:text-[#E0E0E0]">
+          <h1 className="literata-italic font-semibold text-[22px] sm:text-[32px] dark:text-[#E0E0E0]">
             🌟 Let’s Stay Connected!
           </h1>
-          <p className="manrope-italic text-[18px] dark:text-[#E0E0E0]">
+          <p className="manrope-italic text-[13px] sm:text-[18px] dark:text-[#E0E0E0]">
             Follow me on social media for design inspiration, behind-the-scenes
             updates, and the latest projects. Let’s create and grow together!
           </p>
@@ -92,8 +92,8 @@ const Footer = () => {
         <div className="flex items-center gap-3">
           <img src={resources.logo} alt="Logo" />
           <div className="flex flex-col ">
-            <h1 className="literata-italic text-[14px]  sm:text-[20px] dark:text-[#E0E0E0]">Shaik Davood</h1>
-            <h2 className="manrope-italic text-[12px] sm:text-[18px] dark:text-[#E0E0E0]">Frontend Developer</h2>
+            <h1 className="literata-italic text-[10px]  sm:text-[20px] dark:text-[#E0E0E0]">Shaik Davood</h1>
+            <h2 className="manrope-italic text-[8px] sm:text-[18px] dark:text-[#E0E0E0]">Frontend Developer</h2>
           </div>
         </div>
 
