@@ -193,8 +193,7 @@ export const projectData = [
     id: 9,
     projectImg: projectimg9,
     projectTitle: "A Simple UI Design",
-    projectDescription:
-      "Simple Ui Design with responsive Styling",
+    projectDescription: "Simple Ui Design with responsive Styling",
     techUsed: "#React #TailwindCss",
     projectLinks: "https://shaikdavoodbasha.github.io/twountitled/",
   },
@@ -285,7 +284,6 @@ export const skillsData = [
     image: programming,
     heading: "Python, Javascript ES6",
     text: "Programming Languages ✌",
-   
   },
   {
     id: 2,
@@ -309,13 +307,14 @@ export const skillsData = [
 ];
 
 export const dummyProjects = [
-   {
+  {
     id: 1,
     projectImg: project1,
     projectTitle: "E-Learning Management System",
     projectDescription:
       "Full-stack Learning Management System application with React frontend, Node.js, Express js backend, and MongoDB database.",
     techUsed: "#React # Nodejs #Mongodb #Express #Clerk #Tailwindcss",
+    projectLinks: "https://lmsnew-fontend.vercel.app/",
   },
   {
     id: 2,
@@ -324,6 +323,7 @@ export const dummyProjects = [
     projectDescription:
       "Built and deployed a full-stack e-commerce platform using Next.js frontend and (MongoDB, Express, Node.js,) backend",
     techUsed: "#Next js # Nodejs #Mongodb #Express #Clerk #Tailwindcss",
+    projectLinks: "https://shaikdavoodbasha.github.io/titleswear/",
   },
   {
     id: 3,
@@ -332,5 +332,6 @@ export const dummyProjects = [
     projectDescription:
       "Designed a responsive job portal interface with filters, pagination, and authentication features.",
     techUsed: "#React #Express #Clerk #Tailwindcss",
-  }
-]
+    projectLinks: "https://jobsportal-five.vercel.app/",
+  },
+];

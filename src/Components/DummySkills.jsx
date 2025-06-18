@@ -42,7 +42,7 @@ const DummySkills = () => {
               {project.techUsed}
             </p>
 
-            <a className="w-full" href={project.liveDemoLink || "#"} target="_blank" rel="noreferrer">
+            <a className="w-full" href={project.projectLinks} target="_blank" rel="noreferrer">
               <div className="w-full flex justify-center items-center gap-6 py-[15px] rounded-[10px] bg-[#FF472F] dark:bg-[#FF6B4D] hover:bg-[#e63c24] transition-all duration-300 cursor-pointer hover:shadow-lg">
                 <p className="text-[18px] manrope text-white dark:text-[#E0E0E0]">Live Demo</p>
                 <motion.div
