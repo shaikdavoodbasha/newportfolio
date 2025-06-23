@@ -7,12 +7,14 @@ import Skills from "../Components/Skills";
 import ShowImages from "../Components/ShowImages";
 import DummySkills from "../Components/DummySkills";
 import ContactMe from "../Components/ContactMe";
+import Chatbot from "../Components/Chatbot";
 
 const HomePage = () => {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Chatbot/>
       <SkillsSection />
       <Banner />
       <Skills />
