@@ -218,18 +218,19 @@ body {
   display: block;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 360px) {
   /* Your styles for small mobile devices */
  .chatbot-popup {
-  position: fixed;
+  /* position: fixed; */
   opacity: 0;
   top:10px;
   /* right: 0px; */
   z-index: 100;
   /* right: 35px; */
-  left: 15px;
+  left: 25px;
   pointer-events: none;
-  width: 350px;
+  width: 320px;
+  /* margin-left: 12px; */
   /* transform: scale(1.2); */
   overflow: hidden;
   background-color: #ffffff;
