@@ -116,6 +116,7 @@ body {
 }
 
 .chat-body {
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -167,12 +168,12 @@ body {
   background: #ff472f;
   border-radius: 13px 13px 13px 13px;
 }
-.chat.footer {
+.chat-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background: #fff;
-  padding: 15px 22px 20px;
+  padding: 8px 22px 8px;
 }
 .chat-footer .chat-form {
   display: flex;
@@ -229,16 +230,16 @@ body {
   /* right: 35px; */
   left: 10px;
   pointer-events: none;
-  width: 330px;
+  width: 335px;
   height: 420px;
   /* margin-left: 12px; */
   /* transform: scale(1.2); */
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 15px;
-  transform-origin: bottom right;
-  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
-    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+  /* transform-origin: bottom right; */
+  /* box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5); */
   transition: all 0.1s ease;
  }
 #chatbot-toggler {
@@ -259,8 +260,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 13px;
-  height: 180px;
-  margin-bottom: 82px;
+  height: 280px;
+  /* margin-bottom: 82px; */
   overflow-y: auto;
   padding: 15px 15px;
   scrollbar-width: thin;
