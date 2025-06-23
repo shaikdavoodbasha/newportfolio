@@ -1,9 +1,11 @@
 import React from "react";
 import { resources } from "../assets/assets";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 // Animation Variants
 const letterAnimation = {
+  
   hidden: { opacity: 0, y: 30 },
   visible: (i) => ({
     opacity: 1,
@@ -28,6 +30,7 @@ const fadeIn = {
   // dark:text-[#FF6B4D] red
   // dark:text-[#E0E0E0] white
 const ContactMe = () => {
+  const navigate = useNavigate();
   const heading = "Contact";
   return (
     <div className="m-[20px] sm:m-[20px]">
@@ -87,7 +90,7 @@ const ContactMe = () => {
                 my calendar for a chat—whether it’s about a project, or just
                 geeking out over frontend tech."
               </p>
-              <button className="w-full bg-[#FF472F] dark:bg-[#FF6B4D] rounded-[12px] py-[10px] text-[18px] manrope text-white hover:bg-[#e93e26] transition duration-300">
+              <button onClick={() => navigate("/schedule")} className="arrangeMeeting w-full bg-[#FF472F] dark:bg-[#FF6B4D] rounded-[12px] py-[10px] text-[18px] manrope text-white hover:bg-[#e93e26] transition duration-300">
                 Arrange Meeting
               </button>
             </div>
