@@ -15,10 +15,12 @@ import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import ScheduleMeeting from "./Components/ScheduleMeeting";
-
+import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <div>
+     <ToastContainer position="top-right" autoClose={3000} />
       <PageBoxes />
       <Routes>
         <Route path="/" element={<HomePage/>} />
